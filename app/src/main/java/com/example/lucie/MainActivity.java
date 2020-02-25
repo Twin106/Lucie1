@@ -3,6 +3,7 @@ package com.example.lucie;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
@@ -15,15 +16,24 @@ import android.widget.Toast;
 import com.example.lucie.DisplayMessageActivity;
 import com.example.lucie.R;
 
+import java.io.IOException;
+import java.io.InputStream;
+
 public class MainActivity extends AppCompatActivity {
     public static String google = "http:/google.com";
     public static String gmail = "http:/gmail.com";
     TextView play;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        TextView textView=findViewById(R.id.textView);
+
+
         play=findViewById(R.id.mp3Song);
 
         play.setOnClickListener(new View.OnClickListener() {
@@ -63,6 +73,13 @@ public class MainActivity extends AppCompatActivity {
                 if (intents.resolveActivity(getPackageManager()) != null) {
                     startActivity(intents);
                 }
+            case R.id.list1:
+                startActivity(new Intent(this, ListViews.class));
+                return true;
+
+            case R.id.cfile:
+                startActivity(new Intent(this, ReadCode.class));
+                return true;
         }
         return super.onOptionsItemSelected(items);
 

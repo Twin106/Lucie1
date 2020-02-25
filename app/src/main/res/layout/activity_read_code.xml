@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fashion">
+    tools:context=".ReadCode">
 
     <TextView
-        android:id="@+id/splash"
-        android:layout_width="167dp"
-        android:layout_height="40dp"
-        android:text="I LOVE ANDROID"
+        android:id="@+id/file"
+        android:layout_width="341dp"
+        android:layout_height="370dp"
+        android:text="Access C File"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
 </androidx.constraintlayout.widget.ConstraintLayout>

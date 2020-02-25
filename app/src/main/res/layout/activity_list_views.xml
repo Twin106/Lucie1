@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fashion">
+    tools:context=".ListViews">
 
-    <TextView
-        android:id="@+id/splash"
-        android:layout_width="167dp"
-        android:layout_height="40dp"
-        android:text="I LOVE ANDROID"
+    <ListView
+        android:id="@+id/lucy"
+        android:layout_width="329dp"
+        android:layout_height="636dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684" />
 </androidx.constraintlayout.widget.ConstraintLayout>

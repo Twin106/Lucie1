@@ -2,5 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item	android:id="@+id/surf" android:title="Google" />
     <item	android:id="@+id/mail" android:title="Email" />
-
+    <item	android:id="@+id/list1" android:title="List View" />
+    <item	android:id="@+id/cfile" android:title="C Code" />
 </menu>
