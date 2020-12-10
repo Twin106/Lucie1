@@ -159,6 +159,9 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 return true;
+
+            case R.id.tid:
+                startActivity(new Intent(this, Tone.class));
         }
         return super.onOptionsItemSelected(items);
 

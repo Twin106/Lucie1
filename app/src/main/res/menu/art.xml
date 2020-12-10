@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <item	android:id="@+id/surf" android:title="Google" />
     <item	android:id="@+id/mail" android:title="Email" />
     <item	android:id="@+id/list1" android:title="List View" />
     <item	android:id="@+id/cfile" android:title="C Code" />
     <item	android:id="@+id/send" android:title="Send Mail" />
     <item	android:id="@+id/call" android:title="Call Phone" />
+    <item
+        android:id="@+id/tid"
+        android:title="Tone" />
 </menu>
