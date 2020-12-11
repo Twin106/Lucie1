@@ -17,7 +17,6 @@ public class Tone extends AppCompatActivity implements View.OnClickListener{
         setContentView(R.layout.activity_tone);
         bStart= findViewById(R.id.button2);
         bStop=findViewById(R.id.button);
-
         bStart.setOnClickListener(this);
         bStop.setOnClickListener(this);
     }
